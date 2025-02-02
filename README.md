@@ -1,5 +1,7 @@
 # Date Time Extensions
 
+[![Date Time Extensions CI](https://github.com/themobilecoder/date_time_extensions/actions/workflows/dart.yml/badge.svg)](https://github.com/themobilecoder/date_time_extensions/actions/workflows/dart.yml)
+
 Date Time Extensions is a Dart library that provides extension functions for `DateTime` objects, utilizing the power of the Jiffy library under the hood.
 
 ## Features
