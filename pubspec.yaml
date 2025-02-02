@@ -1,7 +1,7 @@
 name: date_time_extensions
 description: "A dart package that extends some date time utilities from Jiffy."
 version: 1.0.0
-homepage:
+homepage: https://github.com/themobilecoder/date_time_extensions
 
 environment:
   sdk: ">=3.3.1 <4.0.0"
