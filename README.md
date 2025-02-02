@@ -16,7 +16,7 @@ Add the following dependency to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  calendar_datetime_extension: ^1.0.0
+  calendar_datetime_extension: ^1.0.1
 ```
 
 ## Usage
@@ -27,11 +27,9 @@ Import the library and start using the extension methods:
 import 'package:calendar_datetime_extension/calendar_datetime_extension.dart';
 
 void main() {
-    DateTime now = DateTime.now();
-
-    // Example usage of an extension method
-    DateTime nextWeek = now.addWeeks(1);
-    print(nextWeek);
+  DateTime date = DateTime(2023, 1, 3); // 3rd January 2023
+  DateTime nextWeekday = date.getNextWeekday();
+  print('The next weekday after $date is $nextWeekday'); // Wednesday
 }
 ```
 
