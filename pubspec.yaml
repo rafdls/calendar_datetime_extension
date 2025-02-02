@@ -1,6 +1,6 @@
 name: date_time_extensions
 description: "A dart package that extends some date time utilities from Jiffy."
-version: 0.0.1
+version: 1.0.0
 homepage:
 
 environment:
