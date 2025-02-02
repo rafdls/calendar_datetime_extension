@@ -1,7 +1,7 @@
-name: date_time_extensions
+name: calendar_datetime_extension
 description: "A dart package that extends some date time utilities from Jiffy."
 version: 1.0.0
-homepage: https://github.com/themobilecoder/date_time_extensions
+homepage: https://github.com/themobilecoder/calendar_datetime_extension
 
 environment:
   sdk: ">=3.3.1 <4.0.0"

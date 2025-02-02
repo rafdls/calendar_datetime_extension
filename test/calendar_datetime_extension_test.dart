@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:date_time_extensions/date_time_extensions.dart';
+import 'package:calendar_datetime_extension/calendar_datetime_extension.dart';
 
 void main() {
-  group('DateUtils Extension', () {
+  group('CalendarDateTimeUtils Extension', () {
     test('isBeforeOrSameDayAs', () {
       final date1 = DateTime(2023, 10, 10);
       final date2 = DateTime(2023, 10, 11);

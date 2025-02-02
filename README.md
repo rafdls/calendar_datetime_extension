@@ -1,12 +1,12 @@
-# Date Time Extensions
+# Calendar DateTime Extension
 
-[![Date Time Extensions CI](https://github.com/themobilecoder/date_time_extensions/actions/workflows/dart.yml/badge.svg)](https://github.com/themobilecoder/date_time_extensions/actions/workflows/dart.yml)
+[![Calendar DateTime Extension CI](https://github.com/themobilecoder/calendar_datetime_extension/actions/workflows/dart.yml/badge.svg)](https://github.com/themobilecoder/calendar_datetime_extension/actions/workflows/dart.yml)
 
-Date Time Extensions is a Dart library that provides extension functions for `DateTime` objects, utilizing the power of the Jiffy library under the hood.
+calendar_datetime_extension is a Dart library that provides extension functions for `DateTime` objects, utilizing the power of the Jiffy library under the hood.
 
 ## Features
 
-- Simplified date and time manipulation
+- Simplified date and time for dates such as weekends and weekdays
 - Easy-to-use extension methods
 - Leverages Jiffy for robust date and time handling
 
@@ -16,7 +16,7 @@ Add the following dependency to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  date_time_extensions: ^1.0.0
+  calendar_datetime_extension: ^1.0.0
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ dependencies:
 Import the library and start using the extension methods:
 
 ```dart
-import 'package:date_time_extensions/date_time_extensions.dart';
+import 'package:calendar_datetime_extension/calendar_datetime_extension.dart';
 
 void main() {
     DateTime now = DateTime.now();

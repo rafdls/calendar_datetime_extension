@@ -1,4 +1,4 @@
-library date_time_extensions;
+library calendar_datetime_extension;
 
 import 'package:intl/intl.dart';
 import 'package:jiffy/jiffy.dart';
@@ -9,7 +9,7 @@ import 'package:jiffy/jiffy.dart';
 /// This extension includes methods for manipulating and formatting dates,
 /// performing date arithmetic, and other helpful utilities that are not
 /// available in the standard [DateTime] class.
-extension DateUtils on DateTime {
+extension CalendarDateTimeUtils on DateTime {
   /// Checks if the current DateTime instance is before or on the same day as the provided [dateTime].
   ///
   /// This method returns `true` if the current DateTime instance is before the provided [dateTime]
